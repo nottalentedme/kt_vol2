@@ -182,6 +182,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  extension_discovery:
+    dependency: "direct main"
+    description:
+      name: extension_discovery
+      sha256: de1fce715ab013cdfb00befc3bdf0914bea5e409c3a567b7f8f144bc061611a7
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
   file:
     dependency: transitive
     description:
@@ -343,7 +351,7 @@ packages:
     source: hosted
     version: "2.0.2"
   package_config:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: package_config
       sha256: "1c5b77ccc91e4823a5af61ee74e6b972db1ef98c2ff5a18d3161c982a55448bd"
@@ -375,7 +383,7 @@ packages:
     source: hosted
     version: "2.1.4"
   pubspec_parse:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: pubspec_parse
       sha256: c799b721d79eb6ee6fa56f00c04b472dcd44a30d258fac2174a6ec57302678f8

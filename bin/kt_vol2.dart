@@ -1,5 +1,10 @@
-import 'package:kt_vol2/kt_vol2.dart' as kt_vol2;
+import 'provider/fake_api_provider.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${kt_vol2.calculate()}!');
-}
+void main(List<String> arguments) async {
+  final apiProvider = FakeApiProvider();
+  final carts = await apiProvider.getCarts();
+  for (var cart in carts){
+    print("Cart: ${cart.id}, UserId: ${cart.userId}, products: ${cart.products} ", );
+  } 
+  
+} 

@@ -9,9 +9,7 @@ class ProductModel with _$ProductModel {
   factory ProductModel({
     required int productId,
     required int quantity,
-  }
-
-  ) = _ProductModel;
+  }) = _ProductModel;
 
   factory ProductModel.fromJson(Map<String, dynamic> json) => _$ProductModelFromJson(json);
 }
